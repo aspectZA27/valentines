@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Pangolin;
+    src: url(https://fonts.google.com/specimen/pangolin);
+}
+
+body{
+    background-color: black;
+    font-family: "Pangolin", sans-serif;
+}
+
+h1{
+    color: pink;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    justify-self: center;
+    text-shadow: 25px 0 0 pink;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .imgbox {
+    display: grid;
+    height: 100%;
+}
+
+  .bear{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.p1{
+    color: pink;
+    text-align: center;
+}
+
+h2{
+    color: pink;
+    text-align: center;
+    justify-content: center;
+}
+.imgbox2{
+    display: grid;
+    height: 100%;
+}
+
+.moon{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+h3{
+    color: pink;
+    text-align: center;
+    justify-content: center;
+}
+
+.quotes{
+    text-align: center;
+    justify-content: center;
+}
+.quote{
+    color: pink;
+}
+
+.quote1{
+    color: pink;
+}
+
+.veruschka{
+    border: 3px pink dotted;
+}
+
+.imgbox3{
+    display: grid;
+    height: 100%;
+}
+
+.earth{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.imgbox4{
+    display: grid;
+    height: 100%;
+}
+
+.veruschka{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.imgbox5{
+    display: grid;
+    height: 100%;
+}
+
+.blom{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
